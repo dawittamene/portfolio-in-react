@@ -1,4 +1,5 @@
 import React from 'react'
+import './Header.css'
 import CTa from './CTa'
 import ME from '../../assets/dawit.JPG'
 import HeaderSocials from './HeaderSocials'
@@ -10,8 +11,8 @@ const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Dawit Tamene</h1>
         <h5 className="text-light">FullStack Developer</h5>
-        <CTa/>
-        <HeaderSocials/>
+        <CTa />
+        <HeaderSocials />
 
       </div>
       <div className="me">
