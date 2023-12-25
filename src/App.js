@@ -1,29 +1,20 @@
-import Nav from './competents/Nav/Nav'
-import Header from './competents/Header/Header'
-import About from './competents/About/About'
-import Expriance from './competents/Expriance/Expriance'
-import Service from './competents/Service/Service'
-import Portfolio from './competents/Portfolio/Portfolio'
-import Testimonial from './competents/Testimonial/Testimonial'
-import Contact from './competents/Contact/Contacts'
-import Footer from './competents/Footer/Footer'
-
-
+import Works from "./competents/Works/Works";
+import Intro from "./competents/Intro/Intro";
+import NavBar from "./competents/Navbar/NavBar";
+import Skills from "./competents/Skills/Skills";
+import Contacts from "./competents/Contact/Contacts";
+import Footer from "./competents/Footer/Footer";
 
 
 
 function App() {
   return (
     <div className="App">
-      
-      <Header/>
-      <Nav/>
-      <About/>
-      <Expriance/>
-      <Service/>
-      <Portfolio/>
-      <Testimonial/>
-      <Contact/>
+      <NavBar/>
+      <Intro/>
+      <Skills/>
+      <Works/>
+      <Contacts/>
       <Footer/>
      
     </div>
