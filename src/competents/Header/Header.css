@@ -40,7 +40,7 @@ header{
 
 /* ====== IMAGE ========== */
 .me{
-    background: var(--color-primary);
+    background: var(--color-white);
     width: 22rem;
     height: 30rem;
     position: absolute;
