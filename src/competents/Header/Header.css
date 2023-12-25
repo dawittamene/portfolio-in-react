@@ -40,11 +40,12 @@ header{
 
 /* ====== IMAGE ========== */
 .me{
-    background: var(--color-white);
-    width: 22rem;
-    height: 30rem;
+    background:linear-gradient(--color-white), transparent;
+    width: 15rem;
+    height: 17rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
+    
 }
